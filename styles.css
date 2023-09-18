@@ -54,12 +54,12 @@ h2 {
 }
 
 .skills ul {
-    /* list-style: none; */
     padding-left: 25px;
 }
 
 .education li {
     margin-bottom: 15px;
+    font-weight: normal;
 }
 
 .skills li {
@@ -71,13 +71,12 @@ h2 {
     color: #109d59;
 }
 
-.education .degree,
-.skills li {
-    font-weight: bold;
-}
-
 .education .time {
     font-size: inherit;
+}
+
+.education .field {
+    font-size: normal;
 }
 
 /* .skills li::before {
@@ -138,11 +137,29 @@ h2 {
     color: #201d1d;
     /* Light grey background color for the content box */
     margin-top: 0px;
-    padding: 40px;
+    padding: 20px;
     /* border-radius: 5px; */
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
+/* .knowledge-box {
+    margin-top: 0px;
+    padding: 20px;
+    /* border-radius: 5px; */
+/* flex-grow: 1; */
+
+
+.skills .knowledge ul {
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 0;
+}
+
+.skills .knowledge .li {
+    font-weight: lighter;
+}
 
 /* Style icons with a light gray color */
 .left-column .fas,
