@@ -26,20 +26,11 @@ h2 {
 
 
 .top-row {
-    background-color: #3b5e37;
+    background-color: #109d59;
     /* Dark green background color for the top row */
     padding: 20px;
     border-radius: 5px;
     color: #fff;
-}
-
-.personal-info h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-.personal-info p {
-    margin: 5px 0;
 }
 
 .bottom-row {
@@ -52,13 +43,14 @@ h2 {
 
 .education h2,
 .skills h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .education ul {
     list-style: none;
     padding: 0;
     margin-bottom: 4px;
+    line-height: 1.5;
 }
 
 .skills ul {
@@ -72,6 +64,11 @@ h2 {
 
 .skills li {
     margin-bottom: 5px;
+}
+
+.education .university {
+    font-weight: bold;
+    color: #109d59;
 }
 
 .education .degree,
@@ -91,9 +88,9 @@ h2 {
 } */
 
 .right-column {
-    width: 60%;
+    width: 70%;
     /* Adjust the width as needed */
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* Allow right column to expand */
     padding: 40px;
     background-color: #fff;
@@ -103,7 +100,7 @@ h2 {
 
 
 .left-column {
-    width: 40%;
+    width: auto;
     /* Set the left column to automatically adjust width */
     border-radius: 5px;
     display: flex;
@@ -114,15 +111,27 @@ h2 {
 }
 
 
-.title {
-    background-color: #356d5e;
-    color: #d4d0d0;
-    /* Dark green background color for the title section */
-    padding: 40px;
+.personal-info {
+    background-color: #10864d;
+    color: #e8e5e5;
+    padding: 20px;
     /* border-radius: 5px; */
     /* margin-left: 10px; */
 
 }
+
+.personal-info .p {
+    display: block;
+    font-size: 18px;
+    /* margin-top: 4px; */
+    /* margin-bottom: 0; */
+}
+
+.personal-info h1 {
+    /* margin: 0; */
+    font-size: 24px;
+}
+
 
 .content-box {
     background-color: rgb(240, 240, 240);
@@ -142,9 +151,15 @@ h2 {
     margin-right: 5px;
 }
 
+.personal-info .a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .career-objective h2,
 .work-experience h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -164,7 +179,14 @@ h2 {
 }
 
 .work-item h3 {
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.work-item h4 {
+    font-size: 18px;
+    color: #109d59;
     margin: 0;
 }
 
